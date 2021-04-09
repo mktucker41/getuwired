@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>McKenzie Tucker's Menu</title>
+    <link rel="stylesheet" href="https://www.fontzillion.com/fonts/steve-matteson/open-sans">
+    <style>
+div.navbar {
+  background: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+div.navbar:hover{
+  border: solid 3px #34cc99;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none;
+  border-bottom-style: solid;
+}
+div.navbar > ul li ul {
+  display: none;
+}
+div.navbar li {
+  list-style: none;
+  display: block;
+}
+div.navbar > ul li:hover > ul {
+  display: block;
+}
+body {
+    background-image: url("Death_to_stock_photography_Vibrant\ \(10\ of\ 10\).jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    margin: 0;
+}
+/* Menu block*/
+div.navbar > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex: none;
+  flex-flow: wrap;
+  justify-content: center;
+}
+div.navbar > div {
+  background: #ffffff;
+  position: absolute;
+  left: 150px; 
+  height: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  display: flex;
+  flex: none;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+div.navbar > div div {
+  padding: 5px 25px 5px 25px;
+}
+div.navbar > ul li {
+  background: #ffffff;
+  position: relative;
+  left: 250px;
+  height: 30px;
+  list-style-type: vertical;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+div.navbar > ul li a {
+  text-decoration: none;
+  display: block;
+  padding: 5px 25px 5px 25px;
+  color: black;
+  font-weight: lighter;
+}
+div.navbar > ul li ul {
+  display: none;
+}
+/*Dropdown menu*/
+div.navbar > ul {
+  height: 30px;
+  width: 1300px;
+}
+div.navbar > ul li:hover {
+  background: #34cc99;
+}
+div.navbar > ul li:hover > ul {
+  background: #34cc99;
+  display: flex;
+  flex: none;
+  flex-direction: column;
+  flex-flow: column wrap;
+  justify-content: center;
+  position: relative;
+  top: 3px;
+  padding: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+div.navbar > ul li li{
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+div.navbar > ul li:hover > li {
+  background: #34cc99;
+}
+div.navbar > ul li:hover > ul:hover {
+  background: #34cc99;
+}
+div.navbar > ul li:hover > ul:hover > li{
+  background: #34cc99;
+}
+div.navbar > ul li:hover > ul > li{
+  background: #34cc99;
+  font-weight: bold;
+  text-shadow: 1px 1px gray;
+  position: initial;
+}
+div.navbar > ul li:hover > ul > li a {
+  color: #ffffff;
+}
+div.navbar > ul > li:hover > ul:hover > li:hover{
+  background: #0a9a64;
+}
+    </style>
+</head>
+<body>
+  <div class="navbar">
+    <div>GETUWIRED</div>
+    <ul>
+          <li><a href="#">ABOUT</a>
+          <ul>
+            <li><a href="#">OUR STORY</a></li>
+            <li><a href="#">OUR COMMITMENT TO YOU</a></li>
+          </ul>
+        </li>
+        <li><a href="#">LOCATIONS</a>
+          <ul>
+            <li><a href="#">AUSTIN, TX</a></li>
+            <li><a href="#">ATLANTA, GA</a></li>
+            <li><a href="#">SEATTLE, WA</a></li>
+            <li><a href="#">PORTLAND, OR</a></li>
+            </li>
+          </ul>
+        </li>
+        <li><a href="#">PRODUCTS</a>
+        <ul>
+            <li><a href="#">NEW ARRIVALS</a></li>
+            <li><a href="#">FEATURED</a></li>
+            <li><a href="#">TOP RATED</a></li>
+            <li><a href="#">HIS</a></li>
+            <li><a href="#">HERS</a></li>
+            <li><a href="#">KIDS</a></li>
+            <li><a href="#">ACCESSORIES</a></li>
+            <li><a href="#">SPRING CATALOG</a></li>
+            <li><a href="#">THE ESSENTIALS</a></li>
+            <li><a href="#">SALE</a></li>
+          </ul>
+        </li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">CONTACT</a></li>
+      </ul>
+  </div>
+</body>
+</html>
